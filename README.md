@@ -26,7 +26,7 @@ Unter OpenWRT fasst die Bridge "br-lan" Ethernetports zusammen, die auf der Seit
 
 - Network -> Interfaces -> Devices -> br-lan -> Configure -> Bridge ports -> Entferne den Port, der später zum WAN Port wird und füge die hinzu, die Du auf der LAN Seite möchtest.
 
-![[img_1.png]]
+![br-lan Bridge konfigurieren](img_1.png)
 
 Damit können wir das WAN Interface konfigurieren. Die Zugangsdaten stehen im Brief der EWE. Die EWE benutzt VLAN 7, dies wird auch im Brief mitgeteilt. Um ein VLAN einzustellen kann man im WAN Interface ein "custom device" angeben, dessen Name aus dem WAN Port (eth2) und einem Punkt (.) gefolgt von der VLAN ID (7) besteht, also "eth2.7" in meinem Fall. Dies funktioniert auch, wenn das VLAN device vorher nicht konfiguriert wurde. Man kann auch extra ein VLAN device vorher konfigurieren, was ich aber nicht getan habe. Es taucht dann nach der WAN Konfiguration unter "Devices" auf.
 
@@ -49,8 +49,8 @@ Das vorkonfigurierte WAN Interface kann gelöscht werden. Auch das wan6 Interfac
 	- Create/Assign Firewall Zone -> wan
 	- -> Save
 
-![[img_2.png]]
-![[img_3.png]]
+![PPPoE Settings](img_2.png)
+![Firewall Settings](img_3.png)
 
 Jetzt sollte alles funktionieren. Wenn jedoch keine Verbindung aufgebaut wird, kannst Du im OpenWRT log die Fehlermeldungen nachlesen.
 
