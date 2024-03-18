@@ -10,12 +10,12 @@ Ich habe mich für ein gebrauchtes [Telekom Glasfasermodem 2](https://geizhals.d
 - Besorge ein Glasfasermodem.
 - Stecke das Modem mit dem beiligenden Glasfaserkabel in die frisch installierte Glasfaserdose.
 - Verbinde das Modem per Ethernetkabel mit dem Port des Routers der (später) als WAN Port konfiguriert wird.
+- Gib der EWE per Telefon die Modem-ID.
 - Schalte das Modem am Schalttag ein: Blinkt es, war die Schaltung noch nicht erfolgreich. Leuchtet es durchgehend, hat es sich mit dem Netz verbunden und Dein Router kann eine PPPoE Verbindung aufbauen (siehe unten).
 
 **Wichtig: Modem-ID**
-```Die EWE (über GFNW) authorisiert das Modem über seine Modem-ID. Diese steht auf der Rückseite des Modems. Gib die Modem-ID (nicht die Seriennummer) dem technischen Support von EWE. Die Telefonnummer findest Du auf dem Brief, auf dem Dir die Zugangsdaten mitgeteilt wurden. Dort steht etwas kleiner ein Absatz zum Thema: "eigenes Endgerät".```
 
-- Gib der EWE per Telefon die Modem-ID.
+```Die EWE (über GFNW) authorisiert das Modem über seine Modem-ID. Diese steht auf der Rückseite des Modems. Gib die Modem-ID (nicht die Seriennummer) dem technischen Support von EWE. Die Telefonnummer findest Du auf dem Brief, auf dem Dir die Zugangsdaten mitgeteilt wurden. Dort steht etwas kleiner ein Absatz zum Thema: "eigenes Endgerät".```
 
 ### Router
 - Besorge einen Router.
